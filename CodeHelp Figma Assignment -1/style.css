@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    padding: 113px;
+    
+
+
+}
+/* header */
+
+.log1{
+    width: 98px;
+    height: 82px;
+
+}
+
+a{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    
+
+}
+
+.btn{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 700px;
+    line-height: 24px;
+    width: 165px;
+    height: 54px;
+    color: white;
+    background-color: #4e5dc0;
+    border-radius: 5px;
+    border-color: #4e5dc0;
+
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+/* main */
+
+#main{
+    padding-top: 216px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.content {
+
+
+    width: 573px;
+    height: 420px;
+    
+}
+h1 {
+    font-family: 'Raleway', sans-serif;
+font-family: 'Roboto Flex', sans-serif;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 38px;
+    line-height: 45px;
+    color: black;
+    font-stretch: 100;
+}
+
+p{
+    position: relative;
+    top: 42px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 34px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+}
+
+hr {
+    position: relative;
+    top: 20px;
+    width: 280px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+
+
+/* FOOTER */
+
+#footer{
+    display: flex;
+    width: 100vw;
+    height: 390px;
+    padding: 80px;
+    justify-content: space-between; 
+
+}
+
+
+h3 {
+    font-family: Raleway;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing:3px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: #4e5dc0;
+}
+ul{
+    text-decoration: none;
+    list-style-type: none;
+    position: relative;
+
+
+    font-size: 16x;
+    line-height:10px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+
+}
+
+li {
+    padding:25px 0px 0px 0px;
+}
+
+.ediv {
+    position: relative;
+    padding: 50px 0px 0px 0px;
+}
+
+
+.box-icon {
+
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+
+
+
+
+}
+
+
+.icon {
+    background-color: #4e5dc0;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    
+
+
+}
+.icon> img{
+
+    width: 9.33px;
+    height: 16px;
+    
+}
+
+
+
+.ticon {
+    width: 16px;
+    height: 13px;
+    
+}
+
+.insicon {
+    width: 16px;
+    height: 16px;
+}
